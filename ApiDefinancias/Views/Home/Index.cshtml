@@ -1,0 +1,26 @@
+﻿@page
+@model ApiFinancias.Views.View.IndexModel
+@{
+}
+
+<htm>
+    <head>
+        <title>Index</title>
+        <link rel="stylesheet" href="/css/Index.css">
+        <script src="/javascript/Index.js"></script>
+    </head>
+    <body>
+        <div class="Titulo"> 
+            <h1 class="Titulo-texto">Index Page</h1>
+            <p class="Subtitulo-Texto">Welcome to the Index page.</p>
+        </div>
+        <div class="Login">
+            <form class="Login-Form">
+                <label for="Chave-dev">
+                    <input type="password" name="name" value="" id="Devkey"/>
+                </label>
+            </form>
+            <button class="Botao-Enviar" onclick="send()">Enviar</button>
+        </div>
+    </body>
+</htm>

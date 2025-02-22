@@ -1,0 +1,71 @@
+﻿body {
+    background-color: hsl(0, 100%, 100%);    
+    margin-top: 2px solid black;
+}
+
+.Titulo 
+{
+    border-bottom: 2px solid black;
+    border-radius: 9px;
+    background-color: white;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-width: 2px solid black;
+    border-right: 2px solid black;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.Titulo-texto {
+    font-size: 50px;
+    text-align: center;
+}
+
+.Subtitulo-Texto {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Mensagem-Corpo {
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: white;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.Mensagem-Erro-texto {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Mensagem-Stack-Texto {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Botao-Voltar { 
+    border: 2px solid black;    
+    border-radius: 9px;
+    background-color: white;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.botao-voltar-element {
+    font-size: 20px;
+    text-align: center;
+}
+

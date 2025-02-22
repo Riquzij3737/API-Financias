@@ -1,0 +1,25 @@
+﻿@page 
+@model ApiFinacias.Model.ErrorModel;
+@{
+
+}
+
+<html>
+<head>
+    <title>Error</title>
+    <link rel="stylesheet" href="/css/Error.css">
+</head>
+<body>
+    <div class="Titulo">
+        <h1 class="Titulo-texto">Error</h1>
+        <p class="Subtitulo-Texto">An error occurred while processing your request.</p>
+    </div>
+    <div class="Mensagem-Corpo">
+        <p class="Mensagem-Erro-texto">Message: @Model.Message</p>
+        <p class="Mensagem-Stack-Texto">Stack Trace: @Model.StackTrace</p>
+    </div>
+    <div class="Botao-Voltar">
+        <button class="botao-voltar-element"><a href="/Help">Back to Home</a></button>
+    </div>
+</body>
+</html>
