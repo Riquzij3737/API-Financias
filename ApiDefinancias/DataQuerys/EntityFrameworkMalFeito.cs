@@ -11,7 +11,7 @@ namespace ApiFinacias.DataQuerys;
 public class EntityFrameworkMalFeitoUsers // Refiz o entityFramework kkkkkkkkkkkkkk
 {
     // string de connexão
-    public readonly string ConnectionString = "Server=localhost;Database=mubank_db;Uid=root;Pwd=Z7$J8v2mL@pQxW4tY#RkN9f6S!bG5A;";
+    public readonly string ConnectionString = "Server=localhost;Database=mubank_db;Uid=HenriDev;Pwd=abf0c35c9830431aadd5b84675de1a1f;";
     
     //metodo Create do CRUD
     public async Task<IResult> Create(string nome, string Email, string senha, int CPF)
