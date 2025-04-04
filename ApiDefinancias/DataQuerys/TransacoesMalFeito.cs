@@ -14,7 +14,7 @@ public class TransacoesMalFeito : EntityFrameworkMalFeitoUsers
 {
     // string da chave de conexão
     public readonly string ConnectionString =
-        "Server=localhost;Database=mubank_db;Uid=root;Pwd=Z7$J8v2mL@pQxW4tY#RkN9f6S!bG5A;";
+        "Server=localhost;Database=mubank_db;Uid=HenriDev;Pwd=abf0c35c9830431aadd5b84675de1a1f;";
 
     // Metodo principal para enviar transações e salvar o registro delas no banco de dados
     public async Task<IResult> SalvarEenviar(string titulo, string descricao, int cpf, float valor,
